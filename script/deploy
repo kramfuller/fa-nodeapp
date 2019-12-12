@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh kram123f@52.34.211.231 <<EOF
+ssh -tt kram123f@52.34.211.231 <<EOF
  cd ~/node-app
  git pull
  npm install — production
