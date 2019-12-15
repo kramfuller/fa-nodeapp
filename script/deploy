@@ -1,6 +1,6 @@
 #!/bin/sh
-cd .ssh
-ssh -i fa_key.pem ubuntu@34.220.169.18 <<EOF
+#cd .ssh
+#ssh -i fa_key.pem ubuntu@34.220.169.18 <<EOF
  cd ~/node-app
  git pull
  npm install — production
