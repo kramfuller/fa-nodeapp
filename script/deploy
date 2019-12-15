@@ -1,6 +1,6 @@
 #!/bin/sh
 ssh ubuntu@34.220.169.18 <<EOF
- cd ~/home/kram123f/node-app
+ cd ~/home/kram123f/fa-node-app
  git pull
  npm install
  pm2 restart all
